@@ -10,3 +10,5 @@ db.all("SELECT * FROM info", (err,rows)=>{
     console.log(`${row.user}-${row.age}`);
   });
 });
+
+db.close();

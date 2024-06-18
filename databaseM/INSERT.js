@@ -8,3 +8,5 @@ db.run("INSERT INTO info (user, age) VALUES(?,?)",["Song",31],(err)=>{
   }
   console.log('data insert');
 });
+
+db.close();

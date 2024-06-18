@@ -8,3 +8,5 @@ db.run("CREATE TABLE IF NOT EXISTS info (user TEXT, age INTEGER)",(err)=>{
   }
   console.log('table created');
 });
+
+db.close();
